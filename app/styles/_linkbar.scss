@@ -1,0 +1,13 @@
+.linkbar {
+  padding: 0.5rem;
+  background: #01508b;
+
+  &-box {
+    display: flex;
+    justify-content: space-around;
+
+    &_link {
+      color: white;
+    }
+  }
+}
