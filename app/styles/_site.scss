@@ -1,0 +1,12 @@
+.site {
+  display: flex;
+
+  &-left {
+    width: 20%;
+    background: blue;
+  }
+
+  &-right {
+    background: green;
+  }
+}
