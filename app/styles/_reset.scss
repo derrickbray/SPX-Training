@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .container {
+    max-width: 65rem;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
