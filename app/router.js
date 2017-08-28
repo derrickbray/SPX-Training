@@ -7,6 +7,17 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('resources');
+  this.route('docs', function() {
+    this.route('html');
+    this.route('css');
+    this.route('js');
+  });
+  this.route('syllabus', function() {
+    this.route('units');
+    this.route('over-all');
+    this.route('sprint');
+  });
 });
 
 export default Router;
