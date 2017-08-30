@@ -1,0 +1,23 @@
+.text-title {
+  text-align: center;
+  color: #01508b;
+}
+
+.text-box {
+  margin: 3rem auto;
+  padding: 1rem;
+  color: #01508b;
+}
+
+.text-section {
+  padding-left: 1rem;
+  color: #01508b;
+
+  &_time {
+    padding-left: 1rem;
+  }
+
+  &_item {
+    padding-left: 2rem;
+  }
+}

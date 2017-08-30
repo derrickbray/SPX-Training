@@ -16,7 +16,9 @@ Router.map(function() {
   this.route('syllabus', function() {
     this.route('over-all', {path: '/'});
     this.route('units');
-    this.route('sprint');
+    this.route('sprint', function() {
+      this.route('sprint-one');
+    });
   });
 });
 
