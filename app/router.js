@@ -17,7 +17,8 @@ Router.map(function() {
     this.route('over-all', {path: '/'});
     this.route('units');
     this.route('sprint', function() {
-      this.route('sprint-one');
+      this.route('sprint-one', {path: '/'});
+      this.route('sprint-two');
     });
   });
 });

@@ -3,6 +3,14 @@
   color: #01508b;
 }
 
+.lightblue {
+  color: #2d81c2;
+
+  &:visited {
+    color: #2d81c2;
+  }
+}
+
 .text-box {
   margin: 3rem auto;
   padding: 1rem;
