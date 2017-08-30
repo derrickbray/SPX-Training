@@ -2,8 +2,17 @@
   display: flex;
 
   &-left {
+    padding: 1rem;
     width: 20%;
-    background: blue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #01508b;
+
+    &_link {
+      margin-bottom: 1rem;
+      color: white;
+    }
   }
 
   &-right {

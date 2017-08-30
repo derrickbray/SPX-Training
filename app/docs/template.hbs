@@ -1,21 +1,11 @@
 <div class="linkbar">
   <div class="container">
     <div class="linkbar-box">
-      {{#link-to "docs.html" class="linkbar-box_link"}}HTML{{/link-to}}
-      {{#link-to "docs.css" class="linkbar-box_link"}}CSS{{/link-to}}
-      {{#link-to "docs.js" class="linkbar-box_link"}}JavaScript{{/link-to}}
+      {{#link-to "docs.html" class="linkbar-box_link" }}HTML{{/link-to}}
+      {{#link-to "docs.css" class="linkbar-box_link" }}CSS{{/link-to}}
+      {{#link-to "docs.js" class="linkbar-box_link" }}JavaScript{{/link-to}}
     </div>
   </div>
 </div>
-<div class="site">
-  <div class="site-left">
-    <a href="" class="site-left_link">Stuff</a>
-    <a href="" class="site-left_link">Things</a>
-    <a href="" class="site-left_link">Stuff and things</a>
-  </div>
-  <div class="site-right">
-    hey and stuff
-    {{outlet}}
-  </div>
-{{!-- </div> --}}
-</div>
+
+{{outlet}}
