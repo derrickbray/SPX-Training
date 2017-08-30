@@ -14,8 +14,8 @@ Router.map(function() {
     this.route('js');
   });
   this.route('syllabus', function() {
+    this.route('over-all', {path: '/'});
     this.route('units');
-    this.route('over-all');
     this.route('sprint');
   });
 });
